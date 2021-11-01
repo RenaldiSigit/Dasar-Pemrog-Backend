@@ -70,8 +70,8 @@ while True:
     else:
         print('Menu tidak ditemukan')
         continue
-    pilih = input('Apakah Pilih Lagi ?  y/n \n')
-    if pilih == 'y':
+    pilih = input('Apakah anda ingin memilih lagi ?  y/n \n')
+    if pilih == 'y' or pilih == 'Y':
         continue
     else:
         print('==== list Item yang anda pesan ====')
